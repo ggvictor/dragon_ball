@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: #FFD100;
+}
+header div.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E83E03;
+}
+header div.logo img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+header div.logo a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+header div.logo a:hover{
+    transition: .5s;
+    opacity: .8;
+    font-size: 25px;
+}
+nav.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1C1A1A;
+}
+nav.nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+nav.nav a#home{
+    transition: .5s;
+    text-decoration: underline;
+}
+nav.nav a:hover {
+    transition: 0.5s;
+    font-size: 25px;
+    opacity: .8;
+    text-decoration: underline;
+}
+div.three{
+    display: flex;
+}
+div.three div.vegeta{
+    background-color: #062E5C;
+    
+    width: 25%;
+
+}
+div.three div.vegeta img{
+    height: 684px;
+}
+div.three div.goku{
+    background-color: #E83E03;
+    width: 50%;
+}
+div.three div.goku img{
+    height: 782px;
+}
+div.three div.gohan{
+    background-color: #430098;
+    width: 25%;
+}
+div.three div.gohan img{
+    height: 684px;
+}
+/* main */
+main section.sobre{
+    background-color: #FFD100;
+    position: absolute;
+}
+div.sobre_div{
+    max-width: 700px;
+    background-color: #FFD100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 13px solid #E83E03;
+    position: relative;
+    top: -99px;
+    left: 46%;
+}
+div.sobre_div img{
+    padding-top: 10px;
+}
+div.sobre_div p{
+    font-weight: bold;
+}
+div.sobre_div button,div.personagens_div button{
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #062E5C;
+}
+div.sobre_div button:hover,div.personagens_div button:hover{
+    transition: .7s;
+    opacity: .8;
+    font-size: .9rem;
+}
+/* personagens */
+div.personagens_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: px;
+}
+section.personagens{
+    padding: 280px;
+}
+div.personagens_div img{
+    height: 653px;
+    
+}
+div.sobre_personagens h1.h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #BF0000 ;
+}
+/* footer */
+footer{
+    background-color: #1C1A1A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    padding: 30px;
+}
+footer p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
