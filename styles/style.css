@@ -158,3 +158,150 @@ footer p{
     font-weight: bold;
     padding-bottom: 10px;
 }
+@media screen and (max-width:1000px){
+    div.three div.vegeta{
+        background-color: #062E5C;
+        
+        width: 25%;
+    
+    }
+    div.three div.vegeta img{
+        height: 500px;
+    }
+    div.three div.goku{
+        background-color: #E83E03;
+        width: 50%;
+    }
+    div.three div.goku img{
+        height: 600px;
+    }
+    div.three div.gohan{
+        background-color: #430098;
+        width: 25%;
+    }
+    div.three div.gohan img{
+        height: 500px;
+    }
+
+    div.sobre_div{
+        max-width: 500px;
+        background-color: #FFD100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border: 13px solid #E83E03;
+        position: relative;
+        top: -99px;
+        left: 30%;
+    }
+    /* personagens */
+div.personagens_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+section.personagens{
+    padding: 280px;
+}
+div.personagens_div img{
+    height: 400px;
+    
+}
+}
+@media screen and (max-width:500px){
+    header div.logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #E83E03;
+    }
+    header div.logo img{
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 40px;
+    }
+    header div.logo a{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    div.three div.vegeta img{
+        height: 200px;
+    }
+    div.three div.goku{
+        background-color: #E83E03;
+        width: 50%;
+    }
+    div.three div.goku img{
+        height: 300px;
+    }
+    div.three div.gohan{
+        background-color: #430098;
+        width: 25%;
+    }
+    div.three div.gohan img{
+        height: 200px;
+    }
+    main section.sobre{
+        background-color: #FFD100;
+        position: none;
+        width: 100%;
+        display:flex;
+    }
+    div.sobre_div{
+        margin: 0 auto;
+        padding-top:10px;
+        max-width: 300px;
+        background-color: #FFD100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border: 13px solid #E83E03;
+        position: none;
+        top: 0px;
+        left: 0%;
+    }
+    div.sobre_div img{
+        padding-top: 10px;
+        height: 50px;
+    }
+    div.sobre_div p{
+        font-weight: bold;
+        padding: 5px;
+        font-size: 10px;
+    }
+    div.personagens_div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+    }
+    section.personagens{
+        padding: 100px;
+        padding-top: 200px;
+    }
+    div.personagens_div img{
+        height: 200px;
+        
+    }
+    div.sobre_personagens h1.h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #BF0000 ;
+    }
+    div.sobre_personagens p{
+        font-size: 15px;
+    }
+    footer img{
+        padding: 30px;
+        height: 200px;
+    }
+}

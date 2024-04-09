@@ -1,3 +1,4 @@
+// variaveis
 const goku = document.getElementById("goku")
 const gokuActive = document.getElementById("gokuActive")
 
