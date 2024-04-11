@@ -9,6 +9,7 @@
 }
 body{
     background-color: #e83c03d3  ;
+    overflow-x: hidden;
 }
 header div.logo{
     display: flex;
@@ -80,4 +81,37 @@ section p{
 section img{
     height: 687px;
     margin-bottom: 40px;
+}
+@media screen and (max-width:1000px){
+    section p{
+        color: white;
+        font-weight: bold;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+    section img{
+        height: 569px;
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width:500px){
+    header div.logo img{
+        height: 50px;
+    }
+    header div.logo a{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    section p{
+        color: white;
+        font-weight: bold;
+        max-width: 320px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    section img{
+        height: 269px;
+        margin-bottom: 40px;
+    }
 }
