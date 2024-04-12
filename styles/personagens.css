@@ -391,6 +391,26 @@ div.boo{
         height: 50px;
         padding-right: 0px;
     }
+    div.cell{
+        margin: 0px;
+        padding: 0px;
+    }
+    div.cell_div img.seta{
+        margin: 0px;
+        padding: 0px;
+    }
+    div.embaixo p{
+        font-size: 10px;
+        max-width: 300px;
+    }
+    #goku,#vegeta,#gohan,#piccolo,#n18,#kuririn,#bulma,#freeza,#cell,#boo{
+        height: 300px;
+    }
+    div.lado  img.seta{
+        margin-left: 20px;
+        height: 10px;
+        display: none;
+    }
    
 
 }
