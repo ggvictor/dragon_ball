@@ -1,5 +1,5 @@
 # dragon ball
-**site feito para homengear akira toriyama criador de dragon ball**
+**site feito para homenagear akira toriyama criador de dragon ball**
 
 
 feito com html css e js puro
