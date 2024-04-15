@@ -212,7 +212,7 @@ div.personagens_div img{
     
 }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:680px){
     header div.logo{
         display: flex;
         align-items: center;

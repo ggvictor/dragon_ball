@@ -355,7 +355,7 @@ div.boo{
         margin-left: 180px;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:680px){
     header div.logo img{
         height: 50px;
     }

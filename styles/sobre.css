@@ -95,7 +95,7 @@ section img{
     }
 
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:680px){
     header div.logo img{
         height: 50px;
     }
