@@ -1,10 +1,10 @@
 # dragon ball
-**site feito para homengear akira toriyama criador de dragon ball**
+**site feito para homenagear akira toriyama criador de dragon ball**
+
+não responsivo ainda...
 
 
-ainda em desenvolvimento ...
-
-não responsivo ainda ...
+feito com html css e js puro
 
 [site aqui](https://ggvictor.github.io/dragon_ball/)
 
